@@ -3,7 +3,6 @@ import MainLayout from "../components/layouts/MainLayout";
 import AuthGuard from "../helpers/AuthGuard";
 import { NextComponentType, NextPage, NextPageContext } from "next";
 import { SessionProvider } from "next-auth/react";
-import 'react-toastify/dist/ReactToastify.css';
 
 interface AppProps {
   pageProps: any;
