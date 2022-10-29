@@ -29,15 +29,6 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
           <Component {...pageProps} />
         )}
       </SessionProvider>
-      <style jsx global>
-        {`
-          body {
-            background-color: #0b0e11 !important;
-            color: #fff !important;
-            font-family: "Montserrat", sans-serif !important;
-          }
-        `}
-      </style>
     </>
   );
 }

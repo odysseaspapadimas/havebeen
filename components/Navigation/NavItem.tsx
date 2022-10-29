@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 type Props = {
-  href: String;
+  href: string;
 };
 
 const NavItem = ({ href }: Props) => {
